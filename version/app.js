@@ -5,7 +5,7 @@ var response;
 
 app.get('/', function (req, res) {
 
-    response = 'This is version 2.2 jandemore egüaneinar of the app.' + '\n';
+    response = 'This is version 2.5 jandemore egüaneinar of the app. Este deploy deberá ser automático después de haber configurado el webhook de github' + '\n';
 
     //send the response to the client
     res.send(response);
